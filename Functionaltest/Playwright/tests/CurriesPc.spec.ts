@@ -11,3 +11,8 @@ test('main navigation', async ({ page }) => {
     await page.goto('https://www.currys.co.uk/');
     await expect(page).toHaveURL('https://www.currys.co.uk');
   });
+
+  test('main navigation1', async ({ page }) => {
+    await page.goto('https://www.currys.co.uk/');
+    await expect(page).toHaveURL('https://www.currys.co.uk');
+  });
